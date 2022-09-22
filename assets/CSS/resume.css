@@ -1,0 +1,62 @@
+.resume{
+
+    margin: 0 auto;
+
+    align-self: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+    gap: 3em;
+
+}
+
+.summary{
+    flex: 1 0 100%;
+
+    align-items: flex-start;
+}
+
+.experience{
+    display: flex;
+
+    flex: 1 1 70%;
+    border-right: 1px solid var(--headline-color);
+
+    gap:5rem;
+    flex-direction: column;
+
+    padding-right: 3rem;
+}
+
+.experience h2{
+    align-self: flex-start;
+}
+
+.resume aside{
+
+    opacity: 0.6;
+    display: flex;
+
+    align-self: stretch;
+    flex: 1 0;
+
+    justify-content: center;
+
+    flex-direction: column;
+    gap: 2em;
+
+    padding-left: 3em;
+}
+
+.resume aside ul{
+    display: flex;
+
+    list-style: none;
+
+    gap: 0.5rem;
+    flex-direction: column;
+
+}
+.resume aside li{
+    padding: 0;
+}
